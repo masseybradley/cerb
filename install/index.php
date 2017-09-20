@@ -573,6 +573,9 @@ switch($step) {
 					case 'cerberusweb.support_center':
 					case 'cerberusweb.simulator':
 					case 'cerberusweb.timetracking':
+					case 'cerb.bots.portal.widget':
+					case 'cerb.project_boards':
+					case 'cerb.webhooks':
 						$plugin->setEnabled(true);
 						break;
 					
